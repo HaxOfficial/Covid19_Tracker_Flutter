@@ -6,7 +6,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:pie_chart/pie_chart.dart';
 
 class WorldStatesScreen extends StatefulWidget {
-  const WorldStatesScreen({super.key});
+  const WorldStatesScreen({Key? key}) : super(key: key);
 
   @override
   State<WorldStatesScreen> createState() => _WorldStatesScreenState();
