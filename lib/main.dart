@@ -1,3 +1,4 @@
+import 'package:covid_tracker/View/detail_screen.dart';
 import 'package:covid_tracker/View/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         // useMaterial3: true,
       ),
       home: const SplashScreen(),
+      // home: const DetailScreen(),
     );
   }
 }
